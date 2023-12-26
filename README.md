@@ -118,21 +118,29 @@ git commit [-m <msg>]
 ```
 git commit -m "Added Cheat Sheet 4"
 ```
-## 5. <!--insert command 5 here, and remove this comment (git fetch)-->
+## 5. git fetch 
 ### 🔧 Usage 
-> 
+> Download objects and refs from another repository. (It doesn't merge in the current branch)
 
 ### ✍🏻 Parameters
 ```
-
+git fetch [<options>] [<repository>]
 ```
-> 
+> *Options* are used to determine a specific remote. When no remote is specified, by default the origin remote will be used, unless there’s an upstream branch configured for the current branch. <br/>
+*Repository* can be either a URL or the name of a remote.
 
-### 🔨 Example
+### 🔨 Example #1
 
-> 
+> Say you want to fetch changes from the default remote repository, origin, for all branches
+```
+git fetch
 ```
 
+### 🔨 Example #2
+
+> Say you want to fetch changes for a specific branch from the remote repository
+```
+git fetch origin main
 ```
 ## 6. <!--insert command 6 here, and remove this comment (collab 1)-->
 ```
