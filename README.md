@@ -95,11 +95,17 @@ git diff [<options>] [<commit>] [--] [<path>]
 *Commit* are used to specify a commit or branch name to compare. If not indicated the Git compares the working directory to the staging area. <br/>
 *Path* specifies the file(s) to show the difference for. If not indicated the Git will display differences for all modified files.
 
-### 🔨 Example
+### 🔨 Example #1
 
-> Say you want to see the different between a specific file commit and the current working directory
+> Say you want to see the difference between the working directory and the staging area
 ```
-git diff oneTwoThree -- Example.txt
+git diff
+```
+### 🔨 Example #2
+
+> Say you want to see the difference between a specific file commit and the current working directory
+```
+git diff cheatThree -- mainCheat.txt
 ```
 ## 4. git commit
 ### 🔧 Usage 
