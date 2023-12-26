@@ -101,21 +101,22 @@ git diff [<options>] [<commit>] [--] [<path>]
 ```
 git diff oneTwoThree -- Example.txt
 ```
-## 4. <!--insert command 4 here, and remove this comment (git commit)-->
+## 4. git commit
 ### 🔧 Usage 
-> 
+> Record changes to the repository
 
 ### ✍🏻 Parameters
 ```
-
+git commit [-m <msg>]
 ```
-> 
+> *-m \<msg\>*  allows you to input a specific commit message in command line as a sort of tag to remember what changes there are in the new file. <br/>
+*Don't forget to add quotation marks "" in \<msg\>, otherwise it will not work properly.**
 
 ### 🔨 Example
 
-> 
+> Say you want to commit the changes with a commit message for this Learning Task
 ```
-
+git commit -m "Added Cheat Sheet 4"
 ```
 ## 5. <!--insert command 5 here, and remove this comment (git fetch)-->
 ### 🔧 Usage 
