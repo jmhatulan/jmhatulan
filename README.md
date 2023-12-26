@@ -148,11 +148,37 @@ git fetch
 ```
 git fetch origin main
 ```
-## 6. <!--insert command 6 here, and remove this comment (collab 1)-->
+## 6. git status
+### 🔧 Usage 
+> Show the working tree status
+### ✍🏻 Parameters
+```
+git status [<options>] [--] [<pathspec>...]
+```
+> *Options* are used to customize the output format. <br/>
+Pathspec limits the status to specific files or directories.
+
+### 🔨 Example
+> Say you want to see the status of changes as untracked, modified, or staged files
+```
+git status
 ```
 
+## 7. git branch
+### 🔧 Usage 
+> List, create, or delete branches
+### ✍🏻 Parameters
 ```
-## 7. <!--insert command 7 here, and remove this comment (collab 2)-->
+git branch [<options>] [-r | -a] [--list] [<pattern>...]
 ```
+> *Options* are used to customize the output or perform specific operations. <br/>
+-r lists or operates on remote-tracking branches only. <br/>
+-a lists or operates on remote-tracking branches and local branches. <br/>
+--list displays a list of branch names. <br/>
+*Pattern* can be used to filter branch names.
 
+### 🔨 Example
+> Say you want to list all local branches in your repository
+```
+git branch
 ```
