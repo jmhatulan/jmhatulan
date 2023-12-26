@@ -45,7 +45,7 @@ Feel free to contact
 ```
 git init <directory>
 ```
-> Directory specifies the path to the directory where you want to initialize the Git repository. If it is not specified, the Git will initialize the current working directory.
+> *Directory* specifies the path to the directory where you want to initialize the Git repository. If it is not specified, the Git will initialize the current working directory.
 
 ### 🔨 Example
 
@@ -68,7 +68,7 @@ git commit    (3)
 ```
 git add <file or directory>
 ```
-> File/Directory specifies the file/path to the directory where you want to be included in the next commit.
+> *File/Directory* specifies the file/path to the directory where you want to be included in the next commit.
 
 ### 🔨 Example #1
 > Say you want to add a single file named Example.txt
@@ -82,15 +82,54 @@ git add Example.txt
 git add Documentation/\*.txt
 ```
 
-## 3. <!--insert command 3 here, and remove this comment (git status)-->
+## 3. git diff
+### 🔧 Usage 
+> Show changes between commits, commit and working tree, etc.
+
+### ✍🏻 Parameters
+```
+git diff [<options>] [<commit>] [--] [<path>]
+```
+> All items indicated below are *optional* <br/>
+*Options* are used to indicate the output's format.  <br/>
+*Commit* are used to specify a commit or branch name to compare. If not indicated the Git compares the working directory to the staging area. <br/>
+*Path* specifies the file(s) to show the difference for. If not indicated the Git will display differences for all modified files.
+
+### 🔨 Example
+
+> Say you want to see the different between a specific file commit and the current working directory
+```
+git diff oneTwoThree -- Example.txt
+```
+## 4. <!--insert command 4 here, and remove this comment (git commit)-->
+### 🔧 Usage 
+> 
+
+### ✍🏻 Parameters
 ```
 
 ```
-## 4. <!--insert command 4 here, and remove this comment (git diff)-->
+> 
+
+### 🔨 Example
+
+> 
 ```
 
 ```
-## 5. <!--insert command 5 here, and remove this comment (git commit)-->
+## 5. <!--insert command 5 here, and remove this comment (git fetch)-->
+### 🔧 Usage 
+> 
+
+### ✍🏻 Parameters
+```
+
+```
+> 
+
+### 🔨 Example
+
+> 
 ```
 
 ```
