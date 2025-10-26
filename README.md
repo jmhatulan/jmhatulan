@@ -27,7 +27,7 @@ I find enjoyment spending most of my time at home
 Feel free to contact
  me if you have any inquiries through the following channels.
 
-- ✉️ Gmail: joshuapyguelhatulan@gmail.com
+- ✉️ Gmail: jmjhatulan@gmail.com
 - 📣 Facebook: https://www.facebook.com/jshhtln 
 
 <br/><br/>
